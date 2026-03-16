@@ -1,0 +1,19 @@
+{
+  "name": "designs",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tscircuit/cli": "^0.1.1113",
+    "circuit-json-to-gerber": "^0.0.48",
+    "gerber-plotter": "^4.2.8",
+    "gerber-to-svg": "^4.2.8",
+    "jszip": "^3.10.1",
+    "tscircuit": "^0.0.1510",
+    "zod": "3"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <!-- Telemetron icon: overlapping squares -->
+  <rect x="5" y="10" width="15" height="15" stroke="#00D97E" stroke-width="2.5" fill="none"/>
+  <rect x="12.5" y="17.5" width="15" height="15" stroke="#00D97E" stroke-width="2.5" fill="none"/>
+  <rect x="20" y="25" width="15" height="15" stroke="#00D97E" stroke-width="2.5" fill="none"/>
+  <line x1="12.5" y1="17.5" x2="20" y2="25" stroke="#00D97E" stroke-width="1.75"/>
+  <line x1="20" y1="25" x2="27.5" y2="32.5" stroke="#00D97E" stroke-width="1.75"/>
+  <!-- Telemetron wordmark -->
+  <text x="44" y="33" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#000000" letter-spacing="-0.5">Telemetron</text>
+</svg>
