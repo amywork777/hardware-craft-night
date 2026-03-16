@@ -140,3 +140,30 @@ export const TelemetronIcon = ({ pcbX = 0, pcbY = 0 }: { pcbX?: number; pcbY?: n
     ]} />
   </>
 )
+
+// "Telemetron" text as manual silkscreen paths (~5.5mm wide, X-negated to match Vizcom)
+export const TelemetronText = ({ pcbX = 0, pcbY = 0 }: { pcbX?: number; pcbY?: number }) => (
+  <>
+    {/* T */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + 2.74, y: pcbY + 0 }, { x: pcbX + 2.1, y: pcbY + 0 }, { x: pcbX + 2.42, y: pcbY + 0 }, { x: pcbX + 2.42, y: pcbY + 0.96 }]} />
+    {/* e */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + 2.02, y: pcbY + 0.32 }, { x: pcbX + 1.54, y: pcbY + 0.32 }, { x: pcbX + 1.54, y: pcbY + 0.56 }, { x: pcbX + 2.02, y: pcbY + 0.56 }, { x: pcbX + 2.02, y: pcbY + 0.96 }, { x: pcbX + 1.54, y: pcbY + 0.96 }]} />
+    {/* l */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + 1.42, y: pcbY + 0 }, { x: pcbX + 1.42, y: pcbY + 0.96 }]} />
+    {/* e */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + 1.18, y: pcbY + 0.32 }, { x: pcbX + 0.7, y: pcbY + 0.32 }, { x: pcbX + 0.7, y: pcbY + 0.56 }, { x: pcbX + 1.18, y: pcbY + 0.56 }, { x: pcbX + 1.18, y: pcbY + 0.96 }, { x: pcbX + 0.7, y: pcbY + 0.96 }]} />
+    {/* m */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + 0.58, y: pcbY + 0.96 }, { x: pcbX + 0.58, y: pcbY + 0.32 }, { x: pcbX + 0.42, y: pcbY + 0.24 }, { x: pcbX + 0.26, y: pcbY + 0.32 }, { x: pcbX + 0.26, y: pcbY + 0.96 }]} />
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + 0.26, y: pcbY + 0.32 }, { x: pcbX + 0.1, y: pcbY + 0.24 }, { x: pcbX + -0.06, y: pcbY + 0.32 }, { x: pcbX + -0.06, y: pcbY + 0.96 }]} />
+    {/* e */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + -0.18, y: pcbY + 0.32 }, { x: pcbX + -0.66, y: pcbY + 0.32 }, { x: pcbX + -0.66, y: pcbY + 0.56 }, { x: pcbX + -0.18, y: pcbY + 0.56 }, { x: pcbX + -0.18, y: pcbY + 0.96 }, { x: pcbX + -0.66, y: pcbY + 0.96 }]} />
+    {/* t */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + -0.9, y: pcbY + 0 }, { x: pcbX + -0.9, y: pcbY + 0.96 }, { x: pcbX + -0.78, y: pcbY + 0.32 }, { x: pcbX + -1.1, y: pcbY + 0.32 }]} />
+    {/* r */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + -1.22, y: pcbY + 0.96 }, { x: pcbX + -1.22, y: pcbY + 0.32 }, { x: pcbX + -1.38, y: pcbY + 0.24 }, { x: pcbX + -1.62, y: pcbY + 0.28 }]} />
+    {/* o */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + -1.7, y: pcbY + 0.32 }, { x: pcbX + -2.1, y: pcbY + 0.32 }, { x: pcbX + -2.1, y: pcbY + 0.96 }, { x: pcbX + -1.7, y: pcbY + 0.96 }, { x: pcbX + -1.7, y: pcbY + 0.32 }]} />
+    {/* n */}
+    <silkscreenpath layer="bottom" route={[{ x: pcbX + -2.22, y: pcbY + 0.96 }, { x: pcbX + -2.22, y: pcbY + 0.32 }, { x: pcbX + -2.38, y: pcbY + 0.24 }, { x: pcbX + -2.62, y: pcbY + 0.32 }, { x: pcbX + -2.62, y: pcbY + 0.96 }]} />
+  </>
+)

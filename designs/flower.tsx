@@ -2,7 +2,7 @@
  * Flower-Shaped LED PCB for Hardware Craft Night
  * 2 LEDs as stamens in the center
  */
-import { VizcomLogo, TelemetronIcon } from "./logos"
+import { VizcomLogo, TelemetronIcon, TelemetronText } from "./logos"
 
 const flowerOutline = [
   { x: 22.50, y: -0.00 }, { x: 22.30, y: -1.17 }, { x: 21.70, y: -2.28 },
@@ -116,6 +116,6 @@ export default () => (
     {/* Logos on back silkscreen — one on each side petal */}
     <VizcomLogo pcbX={-15} pcbY={0} />
     <TelemetronIcon pcbX={15} pcbY={0} />
-    <silkscreentext layer="bottom" text="Telemetron" pcbX={15} pcbY={2.5} fontSize={1} rotation={180} />
+    <TelemetronText pcbX={15} pcbY={2.5} />
   </board>
 )
