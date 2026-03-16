@@ -1483,8 +1483,8 @@
     "pcb_component_id": null,
     "hole_shape": "circle",
     "hole_diameter": 2.5,
-    "x": 8,
-    "y": -16,
+    "x": 9,
+    "y": -17,
     "is_covered_with_solder_mask": false,
     "subcircuit_id": "subcircuit_source_group_0"
   },
