@@ -98,7 +98,7 @@ const ThruHoleLed = ({ name, pcbX, pcbY }: { name: string; pcbX: number; pcbY: n
 
 export default () => (
   <board width="47mm" height="42mm" outline={flowerOutline}>
-    <hole diameter="2.5mm" pcbX={9} pcbY={-17} />
+    <hole diameter="2.5mm" pcbX={8} pcbY={15} />
     <SmtBattery name="BAT1" pcbX={0} pcbY={1} />
     <SmtSwitch name="SW1" pcbX={0} pcbY={5} />
     <resistor name="R1" resistance="68" footprint="0603" pcbX={0} pcbY={7} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
