@@ -1483,7 +1483,7 @@
     "pcb_component_id": null,
     "hole_shape": "circle",
     "hole_diameter": 2.5,
-    "x": 11,
+    "x": 10,
     "y": 17,
     "is_covered_with_solder_mask": false,
     "subcircuit_id": "subcircuit_source_group_0"
@@ -4966,73 +4966,6 @@
     "route": [
       {
         "route_type": "wire",
-        "x": 0.825,
-        "y": 7,
-        "width": 0.15,
-        "layer": "top",
-        "start_pcb_port_id": "pcb_port_5"
-      },
-      {
-        "route_type": "wire",
-        "x": 0.825,
-        "y": 7.598972488141798,
-        "width": 0.15,
-        "layer": "top"
-      },
-      {
-        "route_type": "wire",
-        "x": 0.9278164534502223,
-        "y": 7.70178894159202,
-        "width": 0.15,
-        "layer": "top"
-      },
-      {
-        "route_type": "wire",
-        "x": 0.9562499999999999,
-        "y": 7.725000000000001,
-        "width": 0.15,
-        "layer": "top"
-      },
-      {
-        "route_type": "via",
-        "x": 0.9562499999999999,
-        "y": 7.725000000000001,
-        "from_layer": "top",
-        "to_layer": "bottom"
-      },
-      {
-        "route_type": "wire",
-        "x": 0.9562499999999999,
-        "y": 7.725000000000001,
-        "width": 0.15,
-        "layer": "bottom"
-      },
-      {
-        "route_type": "wire",
-        "x": 0.9562499999999999,
-        "y": 6.831250000000001,
-        "width": 0.15,
-        "layer": "bottom"
-      },
-      {
-        "route_type": "wire",
-        "x": 1.2625,
-        "y": 6.525,
-        "width": 0.15,
-        "layer": "bottom",
-        "end_pcb_port_id": "pcb_port_5"
-      }
-    ],
-    "subcircuit_id": "subcircuit_source_group_0",
-    "source_trace_id": "source_net_3"
-  },
-  {
-    "type": "pcb_trace",
-    "pcb_trace_id": "source_net_3_mst0_1",
-    "connection_name": "source_net_3",
-    "route": [
-      {
-        "route_type": "wire",
         "x": -1.27,
         "y": -3,
         "width": 0.15,
@@ -5041,52 +4974,32 @@
       },
       {
         "route_type": "wire",
-        "x": -1.27,
-        "y": -2.07,
+        "x": 2.326171281032824,
+        "y": 0.5961712810328241,
         "width": 0.15,
         "layer": "top"
       },
       {
         "route_type": "wire",
-        "x": -0.5134660111043946,
-        "y": -1.3134660111043943,
+        "x": 2.326171281032824,
+        "y": 6.010318149713601,
         "width": 0.15,
         "layer": "top"
       },
       {
         "route_type": "wire",
-        "x": -0.40000000000000013,
-        "y": -1.2,
+        "x": 1.8146818502863986,
+        "y": 6.010318149713601,
         "width": 0.15,
         "layer": "top"
       },
       {
-        "route_type": "via",
-        "x": -0.40000000000000013,
-        "y": -1.2,
-        "from_layer": "top",
-        "to_layer": "bottom"
-      },
-      {
         "route_type": "wire",
-        "x": -0.40000000000000013,
-        "y": -1.2,
+        "x": 0.825,
+        "y": 7,
         "width": 0.15,
-        "layer": "bottom"
-      },
-      {
-        "route_type": "wire",
-        "x": -0.40000000000000013,
-        "y": 4.758359375000001,
-        "width": 0.15,
-        "layer": "bottom"
-      },
-      {
-        "route_type": "wire",
-        "x": 1.3666406250000003,
-        "y": 6.525000000000002,
-        "width": 0.15,
-        "layer": "bottom"
+        "layer": "top",
+        "end_pcb_port_id": "pcb_port_5"
       }
     ],
     "subcircuit_id": "subcircuit_source_group_0",
@@ -5187,36 +5100,6 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "source_trace_id": "source_net_0"
-  },
-  {
-    "type": "pcb_via",
-    "pcb_via_id": "pcb_via_0",
-    "pcb_trace_id": "source_net_3_mst0_0",
-    "x": 0.9562499999999999,
-    "y": 7.725000000000001,
-    "hole_diameter": 0.2,
-    "outer_diameter": 0.3,
-    "layers": [
-      "top",
-      "bottom"
-    ],
-    "from_layer": "top",
-    "to_layer": "bottom"
-  },
-  {
-    "type": "pcb_via",
-    "pcb_via_id": "pcb_via_1",
-    "pcb_trace_id": "source_net_3_mst0_1",
-    "x": -0.40000000000000013,
-    "y": -1.2,
-    "hole_diameter": 0.2,
-    "outer_diameter": 0.3,
-    "layers": [
-      "top",
-      "bottom"
-    ],
-    "from_layer": "top",
-    "to_layer": "bottom"
   },
   {
     "type": "source_component_pins_underspecified_warning",
