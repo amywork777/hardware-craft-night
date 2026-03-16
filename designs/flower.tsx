@@ -103,9 +103,8 @@ export default () => (
     <SmtSwitch name="SW1" pcbX={0} pcbY={5} />
     <resistor name="R1" resistance="68" footprint="0603" pcbX={0} pcbY={7} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
 
-    {/* 2 LEDs as stamens in the flower center */}
-    <ThruHoleLed name="LED1" pcbX={-2.5} pcbY={-2} />
-    <ThruHoleLed name="LED2" pcbX={2.5} pcbY={-2} />
+    {/* 1 LED as stamen in the flower center */}
+    <ThruHoleLed name="LED1" pcbX={0} pcbY={-3} />
 
     <trace from=".BAT1 > .pos" to="net.VBAT" />
     <trace from=".BAT1 > .neg" to="net.GND" />
@@ -113,8 +112,6 @@ export default () => (
     <trace from=".SW1 > .pin2" to="net.VSWITCHED" />
     <trace from=".LED1 > .pin1" to="net.VLED" />
     <trace from=".LED1 > .pin2" to="net.GND" />
-    <trace from=".LED2 > .pin1" to="net.VLED" />
-    <trace from=".LED2 > .pin2" to="net.GND" />
 
     {/* Logos on back silkscreen — one on each side petal */}
     <VizcomLogo pcbX={-15} pcbY={0} />

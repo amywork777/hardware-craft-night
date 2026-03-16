@@ -82,9 +82,7 @@ export default () => (
     <SmtSwitch name="SW1" pcbX={0} pcbY={10} />
     <resistor name="R1" resistance="68" footprint="0603" pcbX={0} pcbY={13} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
 
-    <ThruHoleLed name="LED1" pcbX={-7} pcbY={-5} />
-    <ThruHoleLed name="LED2" pcbX={7} pcbY={-5} />
-    <ThruHoleLed name="LED3" pcbX={0} pcbY={1} />
+    <ThruHoleLed name="LED1" pcbX={0} pcbY={-3} />
 
     <trace from=".BAT1 > .pos" to="net.VBAT" />
     <trace from=".BAT1 > .neg" to="net.GND" />
@@ -92,10 +90,6 @@ export default () => (
     <trace from=".SW1 > .pin2" to="net.VSWITCHED" />
     <trace from=".LED1 > .pin1" to="net.VLED" />
     <trace from=".LED1 > .pin2" to="net.GND" />
-    <trace from=".LED2 > .pin1" to="net.VLED" />
-    <trace from=".LED2 > .pin2" to="net.GND" />
-    <trace from=".LED3 > .pin1" to="net.VLED" />
-    <trace from=".LED3 > .pin2" to="net.GND" />
 
     {/* Logos on back silkscreen — one in each lobe */}
     <VizcomLogo pcbX={-12} pcbY={-11} />
