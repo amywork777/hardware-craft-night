@@ -23,7 +23,7 @@
     ],
     "source_component_id": "source_component_0",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net0"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net0"
   },
   {
     "type": "source_port",
@@ -37,7 +37,7 @@
     ],
     "source_component_id": "source_component_0",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net1"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net1"
   },
   {
     "type": "source_component",
@@ -57,7 +57,7 @@
     ],
     "source_component_id": "source_component_1",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net0"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net0"
   },
   {
     "type": "source_port",
@@ -70,7 +70,7 @@
     ],
     "source_component_id": "source_component_1",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net2"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net2"
   },
   {
     "type": "source_component",
@@ -93,7 +93,7 @@
     ],
     "source_component_id": "source_component_2",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net2"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net2"
   },
   {
     "type": "source_port",
@@ -109,7 +109,7 @@
     ],
     "source_component_id": "source_component_2",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net3"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net3"
   },
   {
     "type": "source_component",
@@ -132,7 +132,7 @@
     ],
     "source_component_id": "source_component_3",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net3"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net3"
   },
   {
     "type": "source_port",
@@ -145,7 +145,7 @@
     ],
     "source_component_id": "source_component_3",
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net1"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net1"
   },
   {
     "type": "source_component",
@@ -163,7 +163,7 @@
     "is_power": true,
     "is_positive_voltage_source": true,
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net0"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net0"
   },
   {
     "type": "source_net",
@@ -174,7 +174,7 @@
     "is_power": false,
     "is_positive_voltage_source": false,
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net1"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net1"
   },
   {
     "type": "source_net",
@@ -185,7 +185,7 @@
     "is_power": true,
     "is_positive_voltage_source": true,
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net2"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net2"
   },
   {
     "type": "source_net",
@@ -196,7 +196,7 @@
     "is_power": true,
     "is_positive_voltage_source": true,
     "subcircuit_id": "subcircuit_source_group_0",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net3"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net3"
   },
   {
     "type": "source_board",
@@ -214,7 +214,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".BAT1 > .pos to net.VBAT",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net0"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net0"
   },
   {
     "type": "source_trace",
@@ -227,7 +227,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".BAT1 > .neg to net.GND",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net1"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net1"
   },
   {
     "type": "source_trace",
@@ -240,7 +240,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".SW1 > .pin1 to net.VBAT",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net0"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net0"
   },
   {
     "type": "source_trace",
@@ -253,7 +253,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".SW1 > .pin2 to net.VSWITCHED",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net2"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net2"
   },
   {
     "type": "source_trace",
@@ -266,7 +266,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".R1 > .pin1 to net.VSWITCHED",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net2"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net2"
   },
   {
     "type": "source_trace",
@@ -279,7 +279,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".R1 > .pin2 to net.VLED",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net3"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net3"
   },
   {
     "type": "source_trace",
@@ -292,7 +292,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".LED1 > .pin1 to net.VLED",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net3"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net3"
   },
   {
     "type": "source_trace",
@@ -305,7 +305,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".LED1 > .pin2 to net.GND",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net1"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net1"
   },
   {
     "type": "source_trace",
@@ -318,7 +318,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".BAT1 > .pos to net.VBAT",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net0"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net0"
   },
   {
     "type": "source_trace",
@@ -331,7 +331,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".BAT1 > .neg to net.GND",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net1"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net1"
   },
   {
     "type": "source_trace",
@@ -344,7 +344,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".SW1 > .pin1 to net.VBAT",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net0"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net0"
   },
   {
     "type": "source_trace",
@@ -357,7 +357,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".SW1 > .pin2 to net.VSWITCHED",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net2"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net2"
   },
   {
     "type": "source_trace",
@@ -370,7 +370,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".LED1 > .pin1 to net.VLED",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net3"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net3"
   },
   {
     "type": "source_trace",
@@ -383,7 +383,7 @@
     ],
     "subcircuit_id": "subcircuit_source_group_0",
     "display_name": ".LED1 > .pin2 to net.GND",
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net1"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net1"
   },
   {
     "type": "schematic_component",
@@ -697,7 +697,7 @@
       }
     ],
     "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net2"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net2"
   },
   {
     "type": "schematic_trace",
@@ -756,7 +756,7 @@
       }
     ],
     "junctions": [],
-    "subcircuit_connectivity_map_key": "unnamedsubcircuit52_connectivity_net3"
+    "subcircuit_connectivity_map_key": "unnamedsubcircuit53_connectivity_net3"
   },
   {
     "type": "schematic_trace",
@@ -2592,6 +2592,22 @@
       }
     ],
     "stroke_width": 0.1,
+    "subcircuit_id": "subcircuit_source_group_0"
+  },
+  {
+    "type": "pcb_silkscreen_text",
+    "pcb_silkscreen_text_id": "pcb_silkscreen_text_4",
+    "anchor_alignment": "center",
+    "anchor_position": {
+      "x": 14,
+      "y": -8.5
+    },
+    "font": "tscircuit2024",
+    "font_size": 1,
+    "layer": "bottom",
+    "text": "Telemetron",
+    "ccw_rotation": 0,
+    "pcb_component_id": null,
     "subcircuit_id": "subcircuit_source_group_0"
   },
   {

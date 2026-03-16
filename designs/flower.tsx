@@ -98,7 +98,7 @@ const ThruHoleLed = ({ name, pcbX, pcbY }: { name: string; pcbX: number; pcbY: n
 
 export default () => (
   <board width="47mm" height="42mm" outline={flowerOutline}>
-    <hole diameter="2.5mm" pcbX={9} pcbY={16} />
+    <hole diameter="2.5mm" pcbX={8} pcbY={-16} />
     <SmtBattery name="BAT1" pcbX={0} pcbY={1} />
     <SmtSwitch name="SW1" pcbX={0} pcbY={5} />
     <resistor name="R1" resistance="68" footprint="0603" pcbX={0} pcbY={7} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
@@ -116,5 +116,6 @@ export default () => (
     {/* Logos on back silkscreen — one on each side petal */}
     <VizcomLogo pcbX={-15} pcbY={0} />
     <TelemetronIcon pcbX={15} pcbY={0} />
+    <silkscreentext layer="bottom" text="Telemetron" pcbX={15} pcbY={2.5} fontSize={1} />
   </board>
 )

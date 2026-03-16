@@ -94,5 +94,6 @@ export default () => (
     {/* Logos on back silkscreen — one in each lobe */}
     <VizcomLogo pcbX={-12} pcbY={-11} />
     <TelemetronIcon pcbX={14} pcbY={-11} />
+    <silkscreentext layer="bottom" text="Telemetron" pcbX={14} pcbY={-8.5} fontSize={1} />
   </board>
 )
