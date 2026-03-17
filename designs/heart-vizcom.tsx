@@ -57,6 +57,6 @@ export default () => (
     <VizcomLogoFront pcbX={-12} pcbY={-8} />
 
     {/* BIG Vizcom logo on back */}
-    <VizcomLogoBig pcbX={0} pcbY={3} />
+    <VizcomLogoBig pcbX={0} pcbY={6} />
   </board>
 )
