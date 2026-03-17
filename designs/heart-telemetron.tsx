@@ -54,7 +54,7 @@ export default () => (
     <trace from=".J1 > .pin2" to="net.GND" />
 
     {/* Telemetron logo + text centered on back */}
-    <TelemetronIcon pcbX={0} pcbY={0} />
-    <TelemetronText pcbX={0} pcbY={3} />
+    <TelemetronIcon pcbX={0} pcbY={10} />
+    <TelemetronText pcbX={0} pcbY={13} />
   </board>
 )

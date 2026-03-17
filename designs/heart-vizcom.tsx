@@ -54,6 +54,6 @@ export default () => (
     <trace from=".J1 > .pin2" to="net.GND" />
 
     {/* Vizcom logo centered on back */}
-    <VizcomLogo pcbX={0} pcbY={2} />
+    <VizcomLogo pcbX={0} pcbY={12} />
   </board>
 )
