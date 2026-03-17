@@ -60,9 +60,9 @@ export default () => (
     <hole diameter="2.5mm" pcbX={10} pcbY={17} />
 
     {/* Components spread out to avoid battery overlap */}
-    <SmtBattery name="BAT1" pcbX={0} pcbY={3} />
-    <SmtSwitch name="SW1" pcbX={-5} pcbY={-3} />
-    <resistor name="R1" resistance="68" footprint="0603" pcbX={-3} pcbY={-5} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
+    <SmtBattery name="BAT1" pcbX={0} pcbY={4} />
+    <SmtSwitch name="SW1" pcbX={5} pcbY={-4} />
+    <resistor name="R1" resistance="68" footprint="0603" pcbX={3} pcbY={-6} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
     <LedSocket name="J1" pcbX={0} pcbY={-6} />
 
     <trace from=".BAT1 > .pos" to="net.VBAT" />

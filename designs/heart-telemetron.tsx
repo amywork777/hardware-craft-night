@@ -42,9 +42,9 @@ export default () => (
 
     {/* Components spread out to avoid battery overlap */}
     <SmtBattery name="BAT1" pcbX={0} pcbY={5} />
-    <SmtSwitch name="SW1" pcbX={-10} pcbY={-8} />
-    <resistor name="R1" resistance="68" footprint="0603" pcbX={-7} pcbY={-5} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
-    <LedSocket name="J1" pcbX={0} pcbY={-5} />
+    <SmtSwitch name="SW1" pcbX={12} pcbY={-8} />
+    <resistor name="R1" resistance="68" footprint="0603" pcbX={6} pcbY={-8} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
+    <LedSocket name="J1" pcbX={0} pcbY={-10} />
 
     <trace from=".BAT1 > .pos" to="net.VBAT" />
     <trace from=".BAT1 > .neg" to="net.GND" />
@@ -54,7 +54,7 @@ export default () => (
     <trace from=".J1 > .pin2" to="net.GND" />
 
     {/* Telemetron logo + text centered on back */}
-    <TelemetronIcon pcbX={0} pcbY={-8} />
-    <TelemetronText pcbX={0} pcbY={-5.5} />
+    <TelemetronIcon pcbX={0} pcbY={0} />
+    <TelemetronText pcbX={0} pcbY={3} />
   </board>
 )

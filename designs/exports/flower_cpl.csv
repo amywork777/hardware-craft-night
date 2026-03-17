@@ -1,5 +1,5 @@
 Designator,Mid X,Mid Y,Rotation,Layer
-R1,-3.00mm,-5.00mm,0,top
-SW1,-5.00mm,-3.00mm,0,top
-BAT1,0.00mm,3.00mm,0,top
-J1,0.00mm,-6.00mm,0,top
+R1,6.00mm,-8.00mm,0,top
+SW1,12.00mm,-8.00mm,0,top
+BAT1,0.00mm,5.00mm,0,top
+J1,0.00mm,-10.00mm,0,top
