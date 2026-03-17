@@ -54,8 +54,8 @@ export default () => (
     <trace from=".J1 > .pin2" to="net.GND" />
 
     {/* Telemetron logo + text on front, left lobe */}
-    <TelemetronIconFront pcbX={-12} pcbY={-9} />
-    <TelemetronTextFront pcbX={-12} pcbY={-6} />
+    <TelemetronIconFront pcbX={-10} pcbY={-7} />
+    <TelemetronTextFront pcbX={-10} pcbY={-4} />
 
     {/* BIG Telemetron on back */}
     <TelemetronIconBig pcbX={0} pcbY={-2} />
