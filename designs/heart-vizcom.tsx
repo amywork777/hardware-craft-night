@@ -3,7 +3,7 @@
  * 1 LED socket, spread layout, rounded tip
  */
 import { SmtBattery, SmtSwitch, LedSocket } from "./components"
-import { VizcomLogo } from "./logos"
+import { VizcomLogoFront } from "./logos"
 
 const heartOutline = [
   // Bail/tab for keychain
@@ -53,7 +53,7 @@ export default () => (
     <trace from=".J1 > .pin1" to="net.VLED" />
     <trace from=".J1 > .pin2" to="net.GND" />
 
-    {/* Vizcom logo centered on back */}
-    <VizcomLogo pcbX={0} pcbY={12} />
+    {/* Vizcom logo on front, left lobe */}
+    <VizcomLogoFront pcbX={-12} pcbY={-8} />
   </board>
 )

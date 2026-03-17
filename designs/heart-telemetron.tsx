@@ -3,7 +3,7 @@
  * 1 LED socket, spread layout, rounded tip
  */
 import { SmtBattery, SmtSwitch, LedSocket } from "./components"
-import { TelemetronIcon, TelemetronText } from "./logos"
+import { TelemetronIconFront, TelemetronTextFront } from "./logos"
 
 const heartOutline = [
   // Bail/tab for keychain
@@ -53,8 +53,8 @@ export default () => (
     <trace from=".J1 > .pin1" to="net.VLED" />
     <trace from=".J1 > .pin2" to="net.GND" />
 
-    {/* Telemetron logo + text centered on back */}
-    <TelemetronIcon pcbX={0} pcbY={10} />
-    <TelemetronText pcbX={0} pcbY={13} />
+    {/* Telemetron logo + text on front, left lobe */}
+    <TelemetronIconFront pcbX={-12} pcbY={-9} />
+    <TelemetronTextFront pcbX={-12} pcbY={-6} />
   </board>
 )
