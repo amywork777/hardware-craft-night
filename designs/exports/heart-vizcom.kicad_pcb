@@ -96,7 +96,7 @@
       (size 2.5 2.5)
       (drill 2.5)
       (layers *.Cu *.Mask)
-      (uuid 83d42863-ef79-4c5b-92ce-309373a1d922)
+      (uuid 9e6c3c73-44f0-4b9e-9883-d502618cdcc9)
     )
   )
   (footprint
@@ -141,7 +141,7 @@
       (size 2.5 2.5)
       (drill 2.5)
       (layers *.Cu *.Mask)
-      (uuid 4dd4f01d-97e1-4f72-b710-cdef98baaaf6)
+      (uuid 707f156d-b18c-40b2-b6d2-5bf9f5b5941a)
     )
   )
   (footprint
@@ -189,7 +189,7 @@
       (size 2.5 2.5)
       (drill 2.5)
       (layers *.Cu *.Mask)
-      (uuid acb0166f-b6b1-47a1-95ba-c53a91943aef)
+      (uuid d233f4e9-1e7a-4c88-a6b3-3c5b31b72cc0)
     )
   )
   (footprint
@@ -240,7 +240,7 @@
       (size 2.5 2.5)
       (drill 2.5)
       (layers *.Cu *.Mask)
-      (uuid 04b3cc10-05dc-4087-9dbb-4ed0022e3222)
+      (uuid e104eb69-ecfd-493f-a5be-da583399f34a)
     )
   )
   (segment
@@ -2465,6 +2465,30 @@
   )
   (gr_line
     (start 103.5 113.02)
+    (end 103.6 113.4)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 103.6 113.4)
+    (end 103.8 113.7)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 103.8 113.7)
+    (end 104.1 114)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 104.1 114)
+    (end 104.3 114.25)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 104.3 114.25)
     (end 104.57 114.62)
     (width 0.1)
     (layer Edge.Cuts)
@@ -2747,6 +2771,30 @@
   )
   (gr_line
     (start 95.43 114.62)
+    (end 95.7 114.25)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 95.7 114.25)
+    (end 95.9 114)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 95.9 114)
+    (end 96.2 113.7)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 96.2 113.7)
+    (end 96.4 113.4)
+    (width 0.1)
+    (layer Edge.Cuts)
+  )
+  (gr_line
+    (start 96.4 113.4)
     (end 96.5 113.02)
     (width 0.1)
     (layer Edge.Cuts)
