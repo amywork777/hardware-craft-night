@@ -88,7 +88,7 @@ const heartOutline = [
 
 export default () => (
   <board width="47mm" height="46mm" outline={heartOutline}>
-    <hole diameter="2.5mm" pcbX={0} pcbY={-16} />
+    <hole diameter="2.5mm" pcbX={0} pcbY={-19} />
 
     {/* Components spread out to avoid battery overlap */}
     <SmtBattery name="BAT1" pcbX={0} pcbY={5} />
