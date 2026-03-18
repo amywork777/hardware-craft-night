@@ -7,9 +7,9 @@ import { VizcomLogoFront, VizcomLogoBig } from "./logos"
 
 const heartOutline = [
   // Bail/tab for keychain
-  { x: 0.00, y: -19.00 },
-  { x: 1.50, y: -18.50 }, { x: 2.30, y: -17.80 }, { x: 2.80, y: -16.80 },
-  { x: 3.00, y: -15.50 }, { x: 3.00, y: -14.00 }, { x: 2.81, y: -13.02 },
+  { x: 0.00, y: -20.00 },
+  { x: 2.00, y: -19.50 }, { x: 3.20, y: -18.50 }, { x: 3.80, y: -16.80 },
+  { x: 4.00, y: -15.50 }, { x: 4.00, y: -14.00 }, { x: 3.50, y: -13.02 },
   // Right lobe
   { x: 4.57, y: -14.62 }, { x: 6.74, y: -15.88 }, { x: 9.24, y: -16.62 },
   { x: 11.91, y: -16.73 }, { x: 14.61, y: -16.17 }, { x: 17.16, y: -14.96 },
@@ -31,9 +31,9 @@ const heartOutline = [
   { x: -17.16, y: -14.96 }, { x: -14.61, y: -16.17 }, { x: -11.91, y: -16.73 },
   { x: -9.24, y: -16.62 }, { x: -6.74, y: -15.88 }, { x: -4.57, y: -14.62 },
   // Left side of bail
-  { x: -2.81, y: -13.02 },
-  { x: -3.00, y: -14.00 }, { x: -3.00, y: -15.50 }, { x: -2.80, y: -16.80 },
-  { x: -2.30, y: -17.80 }, { x: -1.50, y: -18.50 },
+  { x: -3.50, y: -13.02 },
+  { x: -4.00, y: -14.00 }, { x: -4.00, y: -15.50 }, { x: -3.80, y: -16.80 },
+  { x: -3.20, y: -18.50 }, { x: -2.00, y: -19.50 },
 ]
 
 export default () => (
@@ -42,8 +42,8 @@ export default () => (
 
     {/* Components spread out to avoid battery overlap */}
     <SmtBattery name="BAT1" pcbX={0} pcbY={5} />
-    <SmtSwitch name="SW1" pcbX={12} pcbY={-8} />
-    <resistor name="R1" resistance="68" footprint="0603" pcbX={6} pcbY={-8} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
+    <SmtSwitch name="SW1" pcbX={15} pcbY={-8} />
+    <resistor name="R1" resistance="68" footprint="0603" pcbX={10} pcbY={-8} connections={{ pin1: "net.VSWITCHED", pin2: "net.VLED" }} />
     <LedSocket name="J1" pcbX={0} pcbY={-10} />
 
     <trace from=".BAT1 > .pos" to="net.VBAT" />
